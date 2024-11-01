@@ -1,0 +1,51 @@
+.header-strip {
+  background-color: navy; /* Navy blue background */
+  padding: 20px; /* Padding for the strip */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-align: center; /* Center the text */
+}
+
+.header-text {
+  color: white; /* White text color */
+  margin: 0; /* Remove default margin */
+  font-size: 1.5em; /* Adjust font size as needed */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    color: white;
+    background-color: #1e3a5f; /* Navy blue */
+    font-size: 3em;
+    padding: 15px 30px;
+    text-align: left;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 600px; /* Adjust width to limit title width */
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .form-label {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
